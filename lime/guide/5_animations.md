@@ -70,7 +70,7 @@ Things that are not currently supported when `enableOptimizations()` is turned o
 
 ## Easing
 
-Easing defines the characteristics how the time is changing when the animation is running. It provides more natural motion as it doesn't change the properties in fixed intervals. This makes an object slow down and speed up. All Lime animations have easing ease-in-out by default. This means that object will first speed up and then slow down when it reaches its destination. You define the easing function with `setEasing()` method. Built in values thath you can use include:
+Easing defines the characteristics how the time is changing when the animation is running. It provides more natural motion as it doesn't change the properties in fixed intervals. This makes an object slow down and speed up. All Lime animations have easing ease-in-out by default. This means that object will first speed up and then slow down when it reaches its destination. You define the easing function with `setEasing()` method. Built in values that you can use include:
 
 -   lime.animation.Easing.EASE
 -   lime.animation.Easing.LINEAR
