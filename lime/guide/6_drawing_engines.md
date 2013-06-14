@@ -1,6 +1,6 @@
 # Drawing engine
 
-One of the most important features of LimeJS is its different rendering engines support. It is wrong to call LimeJS a Canvas game framework as Canvas is only one of the lower level technologies supported. The lower level methods that have ability to draw to screen are gathered into namespace *lime.Renderer*. Different renderers can be switched on any Node with ÕsetRenderer(renderer)Õ method in any time. Currently supported renderers in LimeJS are *lime.Renderer.DOM* and *lime.Renderer.CANVAS*.
+One of the most important features of LimeJS is its different rendering engines support. It is wrong to call LimeJS a Canvas game framework as Canvas is only one of the lower level technologies supported. The lower level methods that have ability to draw to screen are gathered into namespace *lime.Renderer*. Different renderers can be switched on any Node with *setRenderer(renderer)* method in any time. Currently supported renderers in LimeJS are *lime.Renderer.DOM* and *lime.Renderer.CANVAS*.
 
 ## Why many renderers are required?
 
