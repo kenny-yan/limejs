@@ -40,7 +40,7 @@ Polygon shapes are always drawn with Canvas renderer as there isn't any way to m
 
 There is one more thing why this method is important. Web is moving in rapid speed and there is no way to see what will happen in even couple of years. There will probably be even better technologies then available. By hiding away this layer we can implement them as soon as they arrive. The game developer doesn't need to change anything and users who still use older browsers/devices can use the old version.
 
-We have already decided that there will be a WebGL renderer in the future. It will be pretty similar to the Canvas implementation but things will be drawn to WebGL graphics context. All the hard shaders stuff will be hidden away from you. You only need to call the ÕsetRenderer()Õ method for your current element. As the development is open for everyone someone else could very well make a SVG renderer or even VML if there is a need for that.
+We have already decided that there will be a WebGL renderer in the future. It will be pretty similar to the Canvas implementation but things will be drawn to WebGL graphics context. All the hard shaders stuff will be hidden away from you. You only need to call the *setRenderer()* method for your current element. As the development is open for everyone someone else could very well make a SVG renderer or even VML if there is a need for that.
 
   
 
